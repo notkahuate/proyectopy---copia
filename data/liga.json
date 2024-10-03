@@ -1,0 +1,26 @@
+{
+    "equipos": {
+       
+        "bueno": {
+            "nombre": "bueno",
+            "cuerpo_tecnico": {},
+            "jugadores": {
+                "s": {
+                    "nombre": "s",
+                    "dorsal": "s",
+                    "posicion": "s",
+                    "tarjetas rojas": 0,
+                    "tarjetas AMARILLAS": 0,
+                    "Goles": 0
+                }
+            },
+            "pj": 0,
+            "pg": 0,
+            "pp": 0,
+            "pe": 0,
+            "gf": 0,
+            "gc": 0,
+            "puntos": 0
+        }
+    }
+}
