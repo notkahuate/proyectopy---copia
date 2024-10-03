@@ -28,6 +28,8 @@ def crear_jugador(nombre,dorsal,posicion,equipo_jgd):
 
 def mostrar_jugadores(equipo_jgd):
     try:
+        data=ReadFile()
+        equipos=data.get('equipos',{})
         if equipo_jgd in equipos:
             jugadores = equipos[equipo_jgd]['jugadores']
             if jugadores:

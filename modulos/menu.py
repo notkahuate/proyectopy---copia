@@ -1,6 +1,7 @@
 from regis_equipo import crear_equipo, mostrar_equipos
 from jugadores_regis import crear_jugador, mostrar_jugadores
 from cuerpo_tecnico import crear_tecnico,mostrar_tc
+from encuentros import programar_encuentro,resultados_Encuentros
 
 def menu_user():
     while True:
@@ -87,7 +88,7 @@ def menu_user():
             goles1 = int(input(f"Goles de {equipo1}: "))
             goles2 = int(input(f"Goles de {equipo2}: "))
             resultados_Encuentros(equipo1,equipo2,goles1,goles2)
-            mostrar_tabla()
+            
 
 
 

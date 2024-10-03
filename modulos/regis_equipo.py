@@ -40,6 +40,8 @@ def crear_equipo(nombre):
 
 
 def mostrar_equipos():
+    data = ReadFile()
+    equipos=data.get('equipos',{})
     if equipos:
         print("Equipos registrados:")
         for nombre, equipo in equipos.items():
